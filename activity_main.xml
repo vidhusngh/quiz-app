@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:padding="20dp"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/true_Button"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#D6ECBC"
+            android:paddingLeft="10dp"
+            android:text="@string/true_Button" />
+
+
+        <Button
+            android:id="@+id/next"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="141dp"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            android:background="#EF9B9B"
+            android:backgroundTint="#E3E0C4"
+            android:clickable="true"
+            android:fadingEdge="horizontal|vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/next"
+            />
+
+        <Button
+            android:id="@+id/false_Button"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#F4BFBF"
+            android:paddingLeft="10dp"
+            android:text="@string/false_Button" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
